@@ -6,6 +6,8 @@ Free Spoken Digit Dataset (FSDD) is a simple audio/speech dataset consisting of 
 
 FSDD is an open dataset, which means it will grow over time as data is contributed. It is a useful dataset for speech recognition tasks and can be thought of as an audio version of the popular MNIST dataset which consists of hand-written digits.
 
+![alt text](https://github.com/dilne/Free-Spoken-Digit-Dataset/blob/main/Mel%20Spectogram%20Example.png?raw=true "Mel Spectogram Example")
+
 ## Training
 [Notebook](https://github.com/dilne/Free-Spoken-Digit-Dataset/blob/main/TrainAndTest%20-%20CNN.ipynb)
 - Data: Mel spectograms
@@ -16,6 +18,8 @@ FSDD is an open dataset, which means it will grow over time as data is contribut
 - Val Loss: 1.5153
 - Accuracy: 0.9471
 - Val Acc: 0.9527
+
+![alt text](https://github.com/dilne/Free-Spoken-Digit-Dataset/blob/main/Metrics.png?raw=true "Model Metrics")
 
 ## Inference
 You can use the trained model to run inference on a single mel spectogram image using:</br>
