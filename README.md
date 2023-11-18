@@ -20,3 +20,6 @@ FSDD is an open dataset, which means it will grow over time as data is contribut
 ## Inference
 You can use the trained model to run inference on a single mel spectogram image using:</br>
 ```python inference.py Data\Mel\0\0_george_0.png```
+
+Output:</br>
+```Prediction: 0 (Confidence: 0.9999996423721313)```
