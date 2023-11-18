@@ -9,11 +9,12 @@ FSDD is an open dataset, which means it will grow over time as data is contribut
 ![alt text](https://github.com/dilne/Free-Spoken-Digit-Dataset/blob/main/Mel%20Spectogram%20Example.png?raw=true "Mel Spectogram Example")
 
 ## Training
+[Notebook](https://github.com/dilne/Free-Spoken-Digit-Dataset/blob/main/TrainAndTest%20-%20CNN.ipynb)
+
 <a href="https://colab.research.google.com/github/dilne/Free-Spoken-Digit-Dataset/blob/main/TrainAndTest%20-%20CNN.ipynb" target="_blank">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-[Notebook](https://github.com/dilne/Free-Spoken-Digit-Dataset/blob/main/TrainAndTest%20-%20CNN.ipynb)
 - Data: Mel spectograms
 - Model: Modified ResNet18 model
 - Epochs: 160
