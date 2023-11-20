@@ -1,4 +1,4 @@
-<h1 align="center">Audio MNIST Classification on the Free Spoken Digit Dataset</h1>
+<h1 align="center">🔢Audio MNIST Classification on the Free Spoken Digit Dataset🔊</h1>
 This project is the MNIST equivalent for audio.
 
 ## Dataset
