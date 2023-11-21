@@ -15,14 +15,20 @@ FSDD is an open dataset, which means it will grow over time as data is contribut
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-- Data: Mel spectograms
+- Impute data: Mel spectograms (2400 train, 600 test)
 - Model: Modified ResNet18 model
-- Epochs: 160
+- Total epochs: 300
 - LR: 0.001, step size 20, gamma 0.9
-- Loss: 1.5287
-- Val Loss: 1.5153
-- Accuracy: 0.9471
-- Val Acc: 0.9527
+- Loss: 1.4690
+- Val Loss: 1.5069
+- Accuracy: 0.9571
+- Val Acc: 0.9696
+
+Best epoch (highest validation accuracy):
+- Epoch: 271
+- Precision: 0.9691420399131312
+- Recall: 0.9694164524957861
+- F1 score: 0.9690412348965143
 
 ![alt text](https://github.com/dilne/Free-Spoken-Digit-Dataset/blob/main/Metrics.png?raw=true "Model Metrics")
 
