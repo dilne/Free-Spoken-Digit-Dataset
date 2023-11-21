@@ -8,7 +8,7 @@ parser = argparse.ArgumentParser(description='Run inference on a single image.')
 parser.add_argument('img_path', type=str, help='Path to the image file.')
 args = parser.parse_args()
 
-path = r'ModelSaves\M1_epoch_138_loss_1.5287_vloss1.5153_acc_0.9471_vacc0.9527.pt'
+path = r'ModelSaves\M2\M2_epoch_271_loss_1.4690_vloss1.5069_acc_0.9571_vacc0.9696.pt'
 
 model = torch.load(path)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
