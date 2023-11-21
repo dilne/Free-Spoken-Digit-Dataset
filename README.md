@@ -38,3 +38,7 @@ You can use the trained model to run inference on a single mel spectogram image 
 
 Output:</br>
 ```Prediction: 0 (Confidence: 0.9999996423721313)```
+
+## Future steps
+- Any empty signal at the beginning or end of each clip is removed, however, this does not mean noise before and after the section of the desired signal is removed. To fix, the data could be passed through a noise gate to remove noise before and after the desired signal while not affecting it.
+- The model should be modified to allow input of different lengths withou having to resize them
