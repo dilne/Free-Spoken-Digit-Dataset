@@ -18,7 +18,7 @@ FSDD is an open dataset, which means it will grow over time as data is contribut
 - Data: Mel spectograms
 - Model: Modified ResNet18 model
 - Epochs: 160
-- LR: 0.001, step size 20, gamme 0.9
+- LR: 0.001, step size 20, gamma 0.9
 - Loss: 1.5287
 - Val Loss: 1.5153
 - Accuracy: 0.9471
