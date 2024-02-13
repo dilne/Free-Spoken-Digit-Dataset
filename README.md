@@ -15,7 +15,7 @@ FSDD is an open dataset, which means it will grow over time as data is contribut
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-- Impute data: Mel spectograms (2400 train, 600 test)
+- Imput data: Mel spectograms (2400 train, 600 test)
 - Model: Modified ResNet18 model
 - Total epochs: 300
 - LR: 0.001, step size 20, gamma 0.9
